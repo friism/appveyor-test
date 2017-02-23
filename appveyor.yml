@@ -1,0 +1,7 @@
+image: Windows Server 2016
+
+install:
+  - docker version
+
+build_script:
+  - ps: .\build.ps1
