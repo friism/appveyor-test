@@ -2,6 +2,7 @@ image: Windows Server 2016
 
 install:
   - docker version
+  - docker-compose -v
 
 build_script:
   - ps: .\build.ps1
